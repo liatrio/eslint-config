@@ -1,0 +1,34 @@
+{
+  "name": "@liatrio/eslint-config",
+  "version": "0.1.0",
+  "description": "Sharable ESLint config for Liatrio's JavaScript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-unicorn": "^40.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liatrio/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Liatrio",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/liatrio/eslint-config/issues"
+  },
+  "homepage": "https://github.com/liatrio/eslint-config#readme"
+}
