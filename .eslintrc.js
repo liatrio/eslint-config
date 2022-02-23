@@ -3,27 +3,27 @@ module.exports = {
         "jest",
         "node",
         "security",
-        "unicorn"
+        "unicorn",
     ],
     extends: [
         "eslint:recommended",
         "plugin:node/recommended",
         "plugin:security/recommended",
-        "plugin:unicorn/recommended"
+        "plugin:unicorn/recommended",
     ],
     rules: {
         "array-bracket-newline": [
             "error",
-            "consistent"
+            "consistent",
         ],
         "array-bracket-spacing": "error",
         "array-element-newline": [
             "error",
-            "consistent"
+            "consistent",
         ],
         "arrow-body-style": [
             "error",
-            "as-needed"
+            "as-needed",
         ],
         "arrow-parens": "error",
         "arrow-spacing": "error",
@@ -33,14 +33,14 @@ module.exports = {
         "camelcase": [
             "error",
             {
-                "ignoreDestructuring": true,
-                "ignoreImports": true,
-                "properties": "never"
-            }
+                ignoreDestructuring: true,
+                ignoreImports: true,
+                properties: "never",
+            },
         ],
         "comma-dangle": [
             "error",
-            "always-multiline"
+            "always-multiline",
         ],
         "comma-spacing": "error",
         "comma-style": "error",
@@ -48,31 +48,31 @@ module.exports = {
         "consistent-return": "error",
         "curly": [
             "error",
-            "all"
+            "all",
         ],
         "dot-location": [
             "error",
-            "property"
+            "property",
         ],
         "eol-last": "error",
         "eqeqeq": [
             "error",
-            "always"
+            "always",
         ],
         "func-call-spacing": "error",
         "function-paren-newline": "error",
         "func-style": [
             "error",
-            "expression"
+            "expression",
         ],
         "function-call-argument-newline": [
             "error",
-            "consistent"
+            "consistent",
         ],
         "implicit-arrow-linebreak": "error",
         "indent": [
             "error",
-            4
+            4,
         ],
         "key-spacing": "error",
         "keyword-spacing": "error",
@@ -80,12 +80,12 @@ module.exports = {
         "max-len": [
             "error",
             {
-                "code": 120
-            }
+                code: 120,
+            },
         ],
         "multiline-ternary": [
             "error",
-            "always-multiline"
+            "always-multiline",
         ],
         "new-parens": "error",
         "no-await-in-loop": "error",
@@ -97,8 +97,8 @@ module.exports = {
         "no-duplicate-imports": [
             "error",
             {
-                "includeExports": true
-            }
+                includeExports: true,
+            },
         ],
         "no-else-return": "error",
         "no-empty-function": "error",
@@ -107,7 +107,7 @@ module.exports = {
         "no-eval": "error",
         "no-extra-parens": [
             "error",
-            "all"
+            "all",
         ],
         "no-extra-semi": "error",
         "no-floating-decimal": "error",
@@ -117,8 +117,8 @@ module.exports = {
         "no-multiple-empty-lines": [
             "error",
             {
-                "max": 1
-            }
+                max: 1,
+            },
         ],
         "no-param-reassign": "error",
         "no-prototype-builtins": "off",
@@ -133,9 +133,9 @@ module.exports = {
         "no-unused-vars": [
             "error",
             {
-                "args": "after-used",
-                "vars": "all"
-            }
+                args: "after-used",
+                vars: "all",
+            },
         ],
         "no-var": "error",
         "no-whitespace-before-property": "error",
@@ -149,20 +149,20 @@ module.exports = {
         "one-var-declaration-per-line": "error",
         "padded-blocks": [
             "error",
-            "never"
+            "never",
         ],
         "padding-line-between-statements": [
             "error",
             {
-                "blankLine": "always",
-                "prev": "*",
-                "next": "return",
+                blankLine: "always",
+                prev: "*",
+                next: "return",
             },
             {
-                "blankLine": "always",
-                "prev": "block-like",
-                "next": "*",
-            }
+                blankLine: "always",
+                prev: "block-like",
+                next: "*",
+            },
         ],
         "prefer-arrow-callback": "error",
         "prefer-const": "error",
@@ -174,12 +174,12 @@ module.exports = {
         "prefer-template": "error",
         "quote-props": [
             "error",
-            "consistent-as-needed"
+            "consistent-as-needed",
         ],
         "quotes": "error",
         "rest-spread-spacing": [
             "error",
-            "always"
+            "always",
         ],
         "semi": "error",
         "semi-spacing": "error",
@@ -194,10 +194,11 @@ module.exports = {
         "template-tag-spacing": "error",
         "yoda": "error",
         "node/no-unsupported-features/es-syntax": "off",
+        "unicorn/prefer-module": "off",
         "unicorn/no-array-for-each": "off",
         "unicorn/no-array-reduce": "off",
         "unicorn/no-useless-undefined": "off",
         "unicorn/prefer-object-from-entries": "off",
-        "unicorn/prefer-ternary": "off"
-    }
+        "unicorn/prefer-ternary": "off",
+    },
 };
