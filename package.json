@@ -25,6 +25,13 @@
     "type": "git",
     "url": "git+https://github.com/liatrio/eslint-config.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    ".eslintrc.js",
+    "index.js"
+  ],
   "keywords": [
     "eslint"
   ],
