@@ -4,7 +4,7 @@
   "description": "Sharable ESLint config for Liatrio's JavaScript projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ."
   },
   "dependencies": {
     "eslint-plugin-jest": "^26.1.1",
@@ -29,6 +29,9 @@
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/liatrio/eslint-config/issues"
+  },
+  "engines": {
+    "node": ">=16"
   },
   "homepage": "https://github.com/liatrio/eslint-config#readme"
 }
