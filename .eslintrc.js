@@ -177,10 +177,7 @@ module.exports = {
             "consistent-as-needed",
         ],
         "quotes": "error",
-        "rest-spread-spacing": [
-            "error",
-            "always",
-        ],
+        "rest-spread-spacing": "error",
         "semi": "error",
         "semi-spacing": "error",
         "semi-style": "error",
