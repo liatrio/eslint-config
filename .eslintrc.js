@@ -107,7 +107,7 @@ module.exports = {
         "no-eval": "error",
         "no-extra-parens": [
             "error",
-            "all",
+            "functions",
         ],
         "no-extra-semi": "error",
         "no-floating-decimal": "error",
