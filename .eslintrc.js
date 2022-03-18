@@ -81,6 +81,8 @@ module.exports = {
             "error",
             {
                 code: 120,
+                ignoreComments: true,
+                ignoreStrings: true,
             },
         ],
         "multiline-ternary": [
