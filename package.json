@@ -1,6 +1,6 @@
 {
   "name": "@liatrio/eslint-config",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Sharable ESLint config for Liatrio's JavaScript projects",
   "main": "index.js",
   "scripts": {
