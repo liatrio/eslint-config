@@ -199,5 +199,6 @@ module.exports = {
         "unicorn/no-useless-undefined": "off",
         "unicorn/prefer-object-from-entries": "off",
         "unicorn/prefer-ternary": "off",
+        "unicorn/prevent-abbreviations": "off",
     },
 };
